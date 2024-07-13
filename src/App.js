@@ -151,6 +151,7 @@ function App() {
     );
   }
   console.log("here as well");
+  console.log("new console");
 
   return (
     <Container
