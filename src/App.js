@@ -18,6 +18,7 @@ import {
 } from './utilities/DataUtils';
 
 function App() {
+  console.log("hey, let's see if i come here");
   const [todayWeather, setTodayWeather] = useState(null);
   const [todayForecast, setTodayForecast] = useState([]);
   const [weekForecast, setWeekForecast] = useState(null);
@@ -149,6 +150,7 @@ function App() {
       </Box>
     );
   }
+  console.log("here as well");
 
   return (
     <Container
